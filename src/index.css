@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;         
+
+
+
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppns' , monospace;
+  }
+  
+  
+  
+  ul{
+    list-style: none;
+    text-align: center;
+  
+  }
+  ul li{
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    text-align: center;
+  }
+  ul li a{
+    display: block;
+    padding: 10px 80px;
+    color:#fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+  
+  }
+  ul li ul.dropdown li{
+    display: block;
+  }
+  ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    background-color: #bc52ff;
+    display: none;
+  }
+  ul li a:hover{
+    background: #6d30e9;
+  }
+  ul li:hover ul.dropdown{
+    display: block;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+
+  .navbar.fixedColor{
+    background-color: #090084;
+    height: 100px;
+    transition: 0.3s ease-in-out;
+  }
+
+  .footy:hover{
+    background-color:#7d77cdbe;     
+    color:#000;
+  }
+  .sendEmail:hover{
+    background-color: #090084;
+    color: #fff;
+  }
