@@ -74,3 +74,19 @@
     background-color: #090084;
     color: #fff;
   }
+
+  .socials{
+    position: fixed;
+    top: 100%;
+    left: 250%;
+  }
+  .socials i:hover{
+    color: #090084;
+  }
+.message{
+  display: none;
+}
+
+.whatsapp:hover + .message {
+  display: block;
+}

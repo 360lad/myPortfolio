@@ -39,10 +39,12 @@ function Homepage() {
             </li>
           </ul>
         </nav>
+        
 
         <div className="" >
           <Introduction/>
         </div>
+     
 
         <div className="flex flex-col items-center justify-center ">
           {/* <h1 className="text-red-500 m-[2em] font-bold "> */}
@@ -62,6 +64,7 @@ function Homepage() {
          <i class="fa-brands fa-react fa-flip fa-5x"></i>
           <i class="fa-brands fa-node fa-flip fa-5x"></i>
           </div>
+         
 
         </div>
       </div>
