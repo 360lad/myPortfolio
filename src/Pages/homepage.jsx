@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Introduction from "./Components/Intro";
-import sportyBlacklogo from "../assets/images/sporty-blacklogo.png"
+import Profile from "../images/Profile_pic-removebg-preview.png"
+import Logo from "../images/LA logo.png"
+
 function Homepage() {
   const [colored, setColored] =useState(false);
 
@@ -16,7 +18,7 @@ function Homepage() {
     <div>
       <div className="bg-[#7d77cdbe] shadow-lg-[] h-[140vh] ">
         <nav className={ colored ? "navbar fixedColor" : "navbar"} >
-          <img className="w-[80px]" src="src/images/LA logo.png" alt="LOGO" />
+          <img className="w-[80px]" src={Logo} alt="LOGO" />
           <ul>
             <li>
               <a href="#">
@@ -33,7 +35,7 @@ function Homepage() {
           </ul>
         </nav>
         <div>
-          <img src={sportyBlacklogo} alt="" />
+          <img src={Profile} alt="" />
         </div>
         
 
