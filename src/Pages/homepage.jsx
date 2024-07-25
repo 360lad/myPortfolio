@@ -27,14 +27,7 @@ function Homepage() {
                   {" "}
                   <a href="#">Projects</a>
                 </li>
-                <li>
-                  {" "}
-                  <a href="#">Contacts</a>
-                </li>
-                <li>
-                  {" "}
-                  <a href="#">Resume</a>
-                </li>
+              
               </ul>
             </li>
           </ul>

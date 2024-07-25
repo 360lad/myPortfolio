@@ -21,7 +21,7 @@ function Introduction() {
           <p className="text-[40px]">A Software Engineer </p>
           <div className="flex items-center">
             <button className="bg-[#090084] px-[2em] py-[1em] rounded m-[1em]">
-              <a href="src/RESUME.odt_0.pdf" download>
+              <a href="src/Abdullatif Apour Resume .pdf" download>
                 Download Resume
               </a>
             </button>
@@ -68,7 +68,7 @@ function Introduction() {
             <div className="mt-20">
         <img
           className="w-[300px] h-[250px] m-[2em] "
-          src="src/images/King Kong.jpeg"
+          src="src/images/Profile_pic-removebg-preview.png"
           alt=""
         />
       </div>
