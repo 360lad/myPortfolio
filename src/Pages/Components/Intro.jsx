@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Profile from "../../src/assets/images/Profile_pic-removebg-preview.png"
+import Profile from "../../images/Profile_pic-removebg-preview.png"
 
 function Introduction() {
   return (
