@@ -75,7 +75,7 @@ function Introduction() {
       </motion.image>
             
 
-    </div>
+  </div>
     
   );
 }
