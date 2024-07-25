@@ -1,6 +1,6 @@
-// import { motion } from "framer-motion";
 import { useState } from "react";
 import Introduction from "./Components/Intro";
+import sportyBlacklogo from "../assets/images/sporty-blacklogo.png"
 function Homepage() {
   const [colored, setColored] =useState(false);
 
@@ -32,7 +32,9 @@ function Homepage() {
             </li>
           </ul>
         </nav>
-        
+        <div>
+          <img src={sportyBlacklogo} alt="" />
+        </div>
         
 
         <div className="" >
