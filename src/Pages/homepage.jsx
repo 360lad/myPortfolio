@@ -18,7 +18,7 @@ function Homepage() {
     <div>
       <div className="bg-[#7d77cdbe] shadow-lg-[] h-[140vh] ">
         <nav className={ colored ? "navbar fixedColor" : "navbar"} >
-          <img className="w-[80px]" src={Logo} alt="LOGO" />
+          <img className="w-[80px]" src={Logo}  />
           <ul>
             <li>
               <a href="#">
