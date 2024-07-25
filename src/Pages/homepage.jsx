@@ -34,9 +34,9 @@ function Homepage() {
             </li>
           </ul>
         </nav>
-        <div>
-          <img src={Profile} alt="" />
-        </div>
+       <div className="items-center">
+        <img src={Logo} alt="" />
+       </div>
         
 
         <div className="" >
