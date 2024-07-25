@@ -1,7 +1,10 @@
 import { useState } from "react";
 import Introduction from "./Components/Intro";
-import Profile from "../images/Profile_pic-removebg-preview.png"
-import Logo from "../images/LA logo.png"
+import Logo from "../images/LA logo.png";
+import Footyfix from "../images/footy-logo-removebg-preview.png";
+import Internsarp from "../images/Internsharp-logo.png";
+import Phonelyfy from "../images/telephone-logo-2.png";
+import Sportthreads from "../images/sporty-blacklogo.png";
 
 function Homepage() {
   const [colored, setColored] =useState(false);
@@ -34,9 +37,7 @@ function Homepage() {
             </li>
           </ul>
         </nav>
-       <div className="items-center ">
-        <img src={Logo} alt="" />
-       </div>
+      
         
 
         <div className="" >
@@ -76,7 +77,7 @@ function Homepage() {
           <div className=" flex m-[2em] g-[1em]">
             <img
               className="h-[200px] w-[200px] rounded-full"
-              src="src/images/Internsharp-logo.png"
+              src={Internsarp}
               alt=""
             />
             <div>
@@ -117,7 +118,7 @@ function Homepage() {
 
               <img
                 className="w-[150px]"
-                src="src/images/telephone-logo-2.png"
+                src={Phonelyfy}
                 alt=""
               />
             </div>
@@ -136,7 +137,7 @@ function Homepage() {
             <div className="flex">
               <img
                 className=" w-[100px]"
-                src="src/images/footy.ico.svg"
+                src={Footyfix}
                 alt=""
               />
               <p>
@@ -156,7 +157,7 @@ function Homepage() {
             <div className="flex flex-col items-center m-[1em]">
               <img
                 className="w-[150px]"
-                src="src/images/sporty-blacklogo.png"
+                src={Sportthreads}
                 alt=""
               />
               <p>

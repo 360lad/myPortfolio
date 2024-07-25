@@ -77,8 +77,9 @@
 
   .socials{
     position: fixed;
-    top: 100%;
-    left: 250%;
+    right: 5%;
+    bottom: 0%;
+    color: #fff;
   }
   .socials i:hover{
     color: #090084;

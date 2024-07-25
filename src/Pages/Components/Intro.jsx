@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import Profile from "../images/Profile_pic-removebg-preview.png"
+
 function Introduction() {
   return (
     <div className="flex text-wrap items-center ">
@@ -39,24 +41,7 @@ function Introduction() {
               </h2>
             </div>
           </div>
-          <div className="socials flex flex-col gap-[1em]">
-            <a className="media " href="x.com/AbdulLatif8605">
-              <i class="fa-brands fa-x-twitter fa-bounce fa-3x"></i>
-            </a>
-            <a className="media " href="https://www.linkedin.com/in/abdul-latif-lattycodes/">
-              <i class="fa-brands fa-linkedin-in fa-bounce fa-3x"></i>
-            </a>
-            <a className="media " href="">
-              <i class="fa-brands fa-facebook fa-bounce fa-3x"></i>
-            </a>
-            <a
-              className="media text-[#0CC143]"
-              href="https://wa.me/+254790018194"
-              target="_blank"
-            >
-              <i class="fa-brands fa-whatsapp fa-3x"></i>
-            </a>
-          </div>
+
           </div>
       </motion.h1>
 
@@ -68,11 +53,29 @@ function Introduction() {
             <div className="mt-20">
         <img
           className="w-[300px] h-[250px] m-[2em] "
-          src="src/images/Profile_pic-removebg-preview.png"
+          src={Profile}
           alt=""
         />
       </div>
       </motion.image>
+      <div className="socials flex flex-col gap-[1em]">
+            <a className="media " href="x.com/AbdulLatif8605">
+              <i class="fa-brands fa-x-twitter fa-bounce fa-3x"></i>
+            </a>
+            <a className="media " href="https://www.linkedin.com/in/abdul-latif-lattycodes/">
+              <i class="fa-brands fa-linkedin-in fa-bounce fa-3x"></i>
+            </a>
+            <a className="media " href="">
+              <i class="fa-brands fa-facebook fa-bounce fa-3x"></i>
+            </a>
+            <a
+              className="media "
+              href="https://wa.me/+254790018194"
+              target="_blank"
+            >
+              <i class="fa-brands fa-whatsapp fa-3x"></i>
+            </a>
+          </div>
             
 
   </div>
